@@ -1,0 +1,29 @@
+{
+  "name": "j-webpack",
+  "version": "1.0.0",
+  "description": "jsy mini webpack",
+  "main": "index.js",
+  "bin": {
+    "j-webpack": "./bin/webpack.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangsongyang/j-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiangsongyang/j-webpack/issues"
+  },
+  "homepage": "https://github.com/jiangsongyang/j-webpack#readme",
+  "dependencies": {
+    "@babel/generator": "^7.14.9",
+    "@babel/parser": "^7.14.9",
+    "@babel/traverse": "^7.14.9",
+    "ejs": "^3.1.6"
+  }
+}
