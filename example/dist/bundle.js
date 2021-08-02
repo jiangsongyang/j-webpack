@@ -32,19 +32,23 @@
     "./src/module1.js":
     (
       function (module , exports , __webpack_require__){
-        eval(`module.exports = {
+        eval(`// this is jsy-loader
+// this is jsy-pre-loader
+module.exports = {
   str1: 'this is module 1'
-};`)
+}; // this.query is true`)
       }
     ),
   
     "./src/index.js":
     (
       function (module , exports , __webpack_require__){
-        eval(`const module1 = __webpack_require__("./src/module1.js");
+        eval(`// this is jsy-loader
+// this is jsy-pre-loader
+const module1 = __webpack_require__("./src/module1.js");
 
 console.log('this is index.js');
-console.log(module1.str1);`)
+console.log(module1.str1); // this.query is true`)
       }
     ),
   
